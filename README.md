@@ -12,11 +12,11 @@ The original NSA cyber security tools leaked by TheShadowBrokers with one commen
 ### Setup
 
 - `Install all prerequisites` 
-- `Run Fuzzbunch`: python fb.py'
+- `Run Fuzzbunch`: fb.py'
 
 ### Screenshots
 
-![alt tag](http://imgur.com/NcO3NAY)
-![alt tag](http://imgur.com/EQ9vPhN)
-![alt tag](http://imgur.com/HqEBrAm)
-![alt tag](http://imgur.com/TTAIBl8)
+![alt tag](http://imgur.com/NcO3NAY.png)
+![alt tag](http://imgur.com/EQ9vPhN.png)
+![alt tag](http://imgur.com/HqEBrAm.png)
+![alt tag](http://imgur.com/TTAIBl8.png)
