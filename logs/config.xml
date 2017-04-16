@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LpConfig>
+    <Port>41353</Port>
+    <LogDir>/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/logs</LogDir>
+    <ResourceDir>/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz</ResourceDir>
+    <LocalAddress>z0.0.0.1</LocalAddress>
+</LpConfig>

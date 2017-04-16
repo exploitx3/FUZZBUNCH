@@ -1,0 +1,5 @@
+SEVERE:  Cannot run program "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz/../../Bin/i386-linux-gcc/release-glibc2.5/DszLp.exe" (in directory "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/logs"): java.io.IOException: error=2, No such file or directory
+SEVERE:  Unable to start comamnd:
+	Command = '/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz/../../Bin/i386-linux-gcc/release-glibc2.5/DszLp.exe'
+
+SEVERE:  No connection established with LP dispatcher

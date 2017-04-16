@@ -1,0 +1,22 @@
+java.io.IOException: Cannot run program "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz/../../Bin/i386-linux-gcc/release-glibc2.5/DszLp.exe" (in directory "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/logs"): java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:470)
+	at ddb.dsz.plugin.appconsole.ImplantConsole.startCommand(Unknown Source)
+	at ddb.dsz.plugin.appconsole.ImplantConsole$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.IOException: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:148)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:65)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:452)
+	... 3 more
+ds.core.StartupException: No connection established with LP dispatcher
+	at ds.core.DSClient.establishConnection(Unknown Source)
+	at ds.plugin.live.DSClientApp.<init>(Unknown Source)
+	at ds.plugin.live.DSClientApp.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at ddb.start.Start.beginImpl(Unknown Source)
+	at ddb.start.Start.access$800(Unknown Source)
+	at ddb.start.Start$13.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:662)

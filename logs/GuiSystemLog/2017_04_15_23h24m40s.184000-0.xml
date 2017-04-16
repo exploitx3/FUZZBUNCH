@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-04-15T23:24:54</date>
+  <millis>1492313094351</millis>
+  <sequence>88</sequence>
+  <logger>ImplantConsole</logger>
+  <level>SEVERE</level>
+  <class>ddb.dsz.plugin.appconsole.ImplantConsole</class>
+  <method>startCommand</method>
+  <thread>63</thread>
+  <message>Cannot run program "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz/../../Bin/i386-linux-gcc/release-glibc2.5/DszLp.exe" (in directory "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/logs"): java.io.IOException: error=2, No such file or directory</message>
+  <exception>
+    <message>java.io.IOException: Cannot run program "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz/../../Bin/i386-linux-gcc/release-glibc2.5/DszLp.exe" (in directory "/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/logs"): java.io.IOException: error=2, No such file or directory</message>
+    <frame>
+      <class>java.lang.ProcessBuilder</class>
+      <method>start</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>ddb.dsz.plugin.appconsole.ImplantConsole</class>
+      <method>startCommand</method>
+    </frame>
+    <frame>
+      <class>ddb.dsz.plugin.appconsole.ImplantConsole$3</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>662</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-04-15T23:24:54</date>
+  <millis>1492313094355</millis>
+  <sequence>93</sequence>
+  <logger>ddb.dsz.plugin.appconsole.ImplantConsole$3</logger>
+  <level>SEVERE</level>
+  <class>ddb.dsz.plugin.appconsole.ImplantConsole$3</class>
+  <method>run</method>
+  <thread>63</thread>
+  <message>Unable to start comamnd:
+	Command = '/home/exploitx/Downloads/EQGRP_Lost_in_Translation-master/windows/Resources/Dsz/../../Bin/i386-linux-gcc/release-glibc2.5/DszLp.exe'
+</message>
+</record>
+<record>
+  <date>2017-04-15T23:25:22</date>
+  <millis>1492313122852</millis>
+  <sequence>119</sequence>
+  <logger>DSClient</logger>
+  <level>SEVERE</level>
+  <class>ds.core.DSClient</class>
+  <method>establishConnection</method>
+  <thread>25</thread>
+  <message>No connection established with LP dispatcher</message>
+  <exception>
+    <message>ds.core.StartupException: No connection established with LP dispatcher</message>
+    <frame>
+      <class>ds.core.DSClient</class>
+      <method>establishConnection</method>
+    </frame>
+    <frame>
+      <class>ds.plugin.live.DSClientApp</class>
+      <method>&lt;init&gt;</method>
+    </frame>
+    <frame>
+      <class>ds.plugin.live.DSClientApp</class>
+      <method>main</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>597</line>
+    </frame>
+    <frame>
+      <class>ddb.start.Start</class>
+      <method>beginImpl</method>
+    </frame>
+    <frame>
+      <class>ddb.start.Start</class>
+      <method>access$800</method>
+    </frame>
+    <frame>
+      <class>ddb.start.Start$13</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>662</line>
+    </frame>
+  </exception>
+</record>
